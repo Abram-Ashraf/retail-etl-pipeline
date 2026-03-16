@@ -1,0 +1,11 @@
+order_id,order_date,customer_id,customer_name,city,country,product_id,product_name,category,quantity,unit_price,unit_cost
+1041,2025-03-01,C001,Ahmed Hassan,Giza,Egypt,P100,Laptop Pro,Electronics,1,1300,980
+1042,2025-03-01,C002,Sara Ali,Giza,Egypt,P101,Mouse,Accessories,2,25,10
+1043,2025-03-02,C003,Omar Khaled,Alexandria,Egypt,P112,Headset Plus,Accessories,1,40,20
+1044,2025-03-02,C033,Hossam Adel,Cairo,Egypt,P120,Desk Lamp,Furniture,2,35,18
+1045,2025-03-03,C004,Mona Youssef,Damietta,Egypt,P115,Filing Cabinet,Office,1,220,165
+1046,2025-03-03,C034,Nermin Samy,Giza,Egypt,P121,Microphone,Electronics,1,95,60
+1047,2025-03-04,C006,Yara Adel,Cairo,Egypt,P119,Power Bank,Electronics,1,32,18
+1048,2025-03-04,C035,Adel Fawzy,Alexandria,Egypt,P122,Office Chair,Furniture,1,145,100
+1049,2025-03-05,C001,Ahmed Hassan,Giza,Egypt,P107,External HDD,Electronics,1,118,85
+1050,2025-03-05,C036,Rania Tarek,Mansoura,Egypt,P123,HDMI Cable,Accessories,3,10,4

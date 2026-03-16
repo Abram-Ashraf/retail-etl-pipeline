@@ -1,0 +1,1019 @@
+[2026-03-16T11:02:53.857+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2026-03-16T11:02:53.863+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2026-03-16T11:02:53.867+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-03-16T11:02:53.871+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T11:02:53.881+0000] {manager.py:824} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-16T11:06:54.127+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2026-03-16T12:20:23.299+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2026-03-16T12:20:23.314+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2026-03-16T12:20:23.324+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-03-16T12:20:23.340+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T12:20:23.364+0000] {manager.py:824} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-16T12:25:23.528+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T12:25:23.547+0000] {manager.py:824} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-16T12:29:36.979+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2026-03-16T16:11:23.753+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2026-03-16T16:11:23.761+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2026-03-16T16:11:23.764+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-03-16T16:11:23.768+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T16:11:23.785+0000] {manager.py:824} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-16T16:16:24.197+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T16:16:24.204+0000] {manager.py:824} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-16T16:21:25.051+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T16:21:25.059+0000] {manager.py:824} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-16T16:26:25.164+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T16:26:25.171+0000] {manager.py:824} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-16T16:31:25.369+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T16:31:25.375+0000] {manager.py:824} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-16T16:36:26.163+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T16:36:26.169+0000] {manager.py:824} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-16T16:41:26.203+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T16:41:26.209+0000] {manager.py:824} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-16T16:46:26.307+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T16:46:26.312+0000] {manager.py:824} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-16T16:51:26.401+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T16:51:26.407+0000] {manager.py:824} INFO - There are 0 files in /opt/airflow/dags
+[2026-03-16T16:53:19.655+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2026-03-16T17:19:54.928+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2026-03-16T17:19:54.930+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2026-03-16T17:19:54.932+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-03-16T17:19:54.933+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T17:19:54.968+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-16T17:19:55.124+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py     63  0.06s             0           0                                                   0
+================================================================================
+[2026-03-16T17:20:25.186+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  3.78s           2026-03-16T17:19:58                      45
+================================================================================
+[2026-03-16T17:20:55.641+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.07s           2026-03-16T17:20:30                      12
+================================================================================
+[2026-03-16T17:21:25.987+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.89s           2026-03-16T17:21:01                      12
+================================================================================
+[2026-03-16T17:21:56.469+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.99s           2026-03-16T17:21:33                      12
+================================================================================
+[2026-03-16T17:22:26.813+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.91s           2026-03-16T17:22:04                      12
+================================================================================
+[2026-03-16T17:22:57.222+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.92s           2026-03-16T17:22:35                      12
+================================================================================
+[2026-03-16T17:23:27.658+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  2.05s           2026-03-16T17:23:08                      12
+================================================================================
+[2026-03-16T17:23:58.126+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.08s           2026-03-16T17:23:39                      12
+================================================================================
+[2026-03-16T17:24:28.531+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.97s           2026-03-16T17:24:11                      12
+================================================================================
+[2026-03-16T17:24:55.881+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T17:24:55.909+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-16T17:24:58.957+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.06s           2026-03-16T17:24:42                      12
+================================================================================
+[2026-03-16T17:25:29.426+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.94s           2026-03-16T17:25:14                      12
+================================================================================
+[2026-03-16T17:25:59.830+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.00s           2026-03-16T17:25:45                      12
+================================================================================
+[2026-03-16T17:26:30.010+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.81s           2026-03-16T17:26:17                      12
+================================================================================
+[2026-03-16T17:27:00.301+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.87s           2026-03-16T17:26:50                      12
+================================================================================
+[2026-03-16T17:27:30.702+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.05s           2026-03-16T17:27:21                      12
+================================================================================
+[2026-03-16T17:28:01.099+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.95s           2026-03-16T17:27:52                      12
+================================================================================
+[2026-03-16T17:28:31.482+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.95s           2026-03-16T17:28:24                      12
+================================================================================
+[2026-03-16T17:29:02.139+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.47s           2026-03-16T17:28:56                      12
+================================================================================
+[2026-03-16T17:29:32.786+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.27s           2026-03-16T17:29:27                      12
+================================================================================
+[2026-03-16T17:29:56.059+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T17:29:56.122+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-16T17:30:03.290+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.24s           2026-03-16T17:29:59                      12
+================================================================================
+[2026-03-16T17:30:33.682+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.07s           2026-03-16T17:30:30                      12
+================================================================================
+[2026-03-16T17:31:04.125+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.22s           2026-03-16T17:31:02                      12
+================================================================================
+[2026-03-16T17:31:34.523+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.98s           2026-03-16T17:31:33                      12
+================================================================================
+[2026-03-16T17:32:04.887+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.99s           2026-03-16T17:32:04                      12
+================================================================================
+[2026-03-16T17:32:35.329+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py    440  0.02s             1           0  0.99s           2026-03-16T17:32:04                      12
+================================================================================
+[2026-03-16T17:33:05.795+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.01s           2026-03-16T17:32:36                      12
+================================================================================
+[2026-03-16T17:33:36.219+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.36s           2026-03-16T17:33:08                      12
+================================================================================
+[2026-03-16T17:34:06.635+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.13s           2026-03-16T17:33:39                      12
+================================================================================
+[2026-03-16T17:34:37.100+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.09s           2026-03-16T17:34:10                      12
+================================================================================
+[2026-03-16T17:34:56.406+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T17:34:56.491+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-16T17:35:07.678+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.42s           2026-03-16T17:34:42                      12
+================================================================================
+[2026-03-16T17:35:38.160+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.04s           2026-03-16T17:35:13                      12
+================================================================================
+[2026-03-16T17:36:08.639+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.12s           2026-03-16T17:35:45                      12
+================================================================================
+[2026-03-16T17:36:39.047+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.01s           2026-03-16T17:36:16                      12
+================================================================================
+[2026-03-16T17:37:09.535+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.20s           2026-03-16T17:36:48                      12
+================================================================================
+[2026-03-16T17:37:40.062+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.03s           2026-03-16T17:37:19                      12
+================================================================================
+[2026-03-16T17:38:10.494+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.39s           2026-03-16T17:37:51                      12
+================================================================================
+[2026-03-16T17:38:40.782+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.87s           2026-03-16T17:38:22                      12
+================================================================================
+[2026-03-16T17:39:11.121+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.97s           2026-03-16T17:38:53                      12
+================================================================================
+[2026-03-16T17:39:41.500+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.93s           2026-03-16T17:39:25                      12
+================================================================================
+[2026-03-16T17:39:56.713+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T17:39:56.762+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-16T17:40:12.386+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.53s           2026-03-16T17:39:57                      12
+================================================================================
+[2026-03-16T17:40:42.897+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.22s           2026-03-16T17:40:28                      12
+================================================================================
+[2026-03-16T17:41:13.308+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.08s           2026-03-16T17:41:00                      12
+================================================================================
+[2026-03-16T17:41:43.748+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.16s           2026-03-16T17:41:31                      12
+================================================================================
+[2026-03-16T17:42:14.111+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.30s           2026-03-16T17:42:03                      12
+================================================================================
+[2026-03-16T17:42:44.567+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.09s           2026-03-16T17:42:34                      12
+================================================================================
+[2026-03-16T17:43:15.001+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.44s           2026-03-16T17:43:06                      12
+================================================================================
+[2026-03-16T17:43:45.778+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.46s           2026-03-16T17:43:37                      12
+================================================================================
+[2026-03-16T17:44:16.322+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.37s           2026-03-16T17:44:09                      12
+================================================================================
+[2026-03-16T17:44:46.873+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.29s           2026-03-16T17:44:40                      12
+================================================================================
+[2026-03-16T17:44:57.004+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T17:44:57.067+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-16T17:45:17.416+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.99s           2026-03-16T17:45:12                      12
+================================================================================
+[2026-03-16T17:45:47.813+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.04s           2026-03-16T17:45:43                      12
+================================================================================
+[2026-03-16T17:46:18.252+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.32s           2026-03-16T17:46:15                      12
+================================================================================
+[2026-03-16T17:46:48.882+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.04s           2026-03-16T17:46:46                      12
+================================================================================
+[2026-03-16T17:47:19.372+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.39s           2026-03-16T17:47:18                      12
+================================================================================
+[2026-03-16T17:47:49.670+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.92s           2026-03-16T17:47:49                      12
+================================================================================
+[2026-03-16T17:48:20.166+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py    899  0.01s             1           0  0.92s           2026-03-16T17:47:49                      12
+================================================================================
+[2026-03-16T17:48:50.790+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.34s           2026-03-16T17:48:21                      12
+================================================================================
+[2026-03-16T17:49:21.272+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.08s           2026-03-16T17:48:52                      12
+================================================================================
+[2026-03-16T17:49:51.716+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.03s           2026-03-16T17:49:24                      12
+================================================================================
+[2026-03-16T17:49:57.771+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T17:49:57.850+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-16T17:50:22.163+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.94s           2026-03-16T17:49:55                      12
+================================================================================
+[2026-03-16T17:50:52.181+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.61s           2026-03-16T17:50:27                      12
+================================================================================
+[2026-03-16T17:51:22.594+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.36s           2026-03-16T17:50:59                      12
+================================================================================
+[2026-03-16T17:51:52.856+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.87s           2026-03-16T17:51:30                      12
+================================================================================
+[2026-03-16T17:52:23.068+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.85s           2026-03-16T17:52:01                      12
+================================================================================
+[2026-03-16T17:52:53.519+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.32s           2026-03-16T17:52:33                      12
+================================================================================
+[2026-03-16T17:53:24.294+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.57s           2026-03-16T17:53:05                      12
+================================================================================
+[2026-03-16T17:53:54.886+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.15s           2026-03-16T17:53:36                      12
+================================================================================
+[2026-03-16T17:54:25.282+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.39s           2026-03-16T17:54:08                      12
+================================================================================
+[2026-03-16T17:54:55.297+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.65s           2026-03-16T17:54:40                      12
+================================================================================
+[2026-03-16T17:54:58.138+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T17:54:58.195+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-16T17:55:05.597+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2026-03-16T17:58:33.063+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2026-03-16T17:58:33.065+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2026-03-16T17:58:33.067+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-03-16T17:58:33.069+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T17:58:33.104+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-16T17:58:33.258+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py     70  0.05s             0           0                                                   0
+================================================================================
+[2026-03-16T17:59:03.710+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  2.18s           2026-03-16T17:58:35                      12
+================================================================================
+[2026-03-16T17:59:34.071+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.07s           2026-03-16T17:59:06                      12
+================================================================================
+[2026-03-16T18:00:04.514+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.07s           2026-03-16T17:59:38                      12
+================================================================================
+[2026-03-16T18:00:34.802+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.86s           2026-03-16T18:00:09                      12
+================================================================================
+[2026-03-16T18:01:05.331+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.16s           2026-03-16T18:00:41                      12
+================================================================================
+[2026-03-16T18:01:35.811+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.22s           2026-03-16T18:01:12                      12
+================================================================================
+[2026-03-16T18:02:06.365+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.29s           2026-03-16T18:01:44                      12
+================================================================================
+[2026-03-16T18:02:36.666+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.88s           2026-03-16T18:02:15                      12
+================================================================================
+[2026-03-16T18:03:07.021+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.00s           2026-03-16T18:02:46                      12
+================================================================================
+[2026-03-16T18:03:33.363+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T18:03:33.417+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-16T18:03:37.510+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.07s           2026-03-16T18:03:18                      12
+================================================================================
+[2026-03-16T18:04:07.795+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.89s           2026-03-16T18:03:49                      12
+================================================================================
+[2026-03-16T18:04:38.057+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.80s           2026-03-16T18:04:20                      12
+================================================================================
+[2026-03-16T18:05:08.301+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.82s           2026-03-16T18:04:52                      12
+================================================================================
+[2026-03-16T18:05:39.057+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.51s           2026-03-16T18:05:24                      12
+================================================================================
+[2026-03-16T18:06:09.538+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.02s           2026-03-16T18:05:55                      12
+================================================================================
+[2026-03-16T18:06:39.943+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.94s           2026-03-16T18:06:26                      12
+================================================================================
+[2026-03-16T18:07:09.976+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.65s           2026-03-16T18:06:58                      12
+================================================================================
+[2026-03-16T18:07:40.883+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.59s           2026-03-16T18:07:30                      12
+================================================================================
+[2026-03-16T18:08:11.158+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.90s           2026-03-16T18:08:02                      12
+================================================================================
+[2026-03-16T18:08:33.506+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T18:08:33.539+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-16T18:08:41.718+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.40s           2026-03-16T18:08:33                      12
+================================================================================
+[2026-03-16T18:09:12.110+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.08s           2026-03-16T18:09:05                      12
+================================================================================
+[2026-03-16T18:09:42.551+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.08s           2026-03-16T18:09:36                      12
+================================================================================
+[2026-03-16T18:10:13.013+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.28s           2026-03-16T18:10:08                      12
+================================================================================
+[2026-03-16T18:10:43.307+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.95s           2026-03-16T18:10:39                      12
+================================================================================
+[2026-03-16T18:11:13.627+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.92s           2026-03-16T18:11:10                      12
+================================================================================
+[2026-03-16T18:11:44.101+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.21s           2026-03-16T18:11:42                      12
+================================================================================
+[2026-03-16T18:12:14.738+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.49s           2026-03-16T18:12:13                      12
+================================================================================
+[2026-03-16T18:12:45.128+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.97s           2026-03-16T18:12:45                      12
+================================================================================
+[2026-03-16T18:13:15.524+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py    501  0.01s             1           0  0.97s           2026-03-16T18:12:45                      12
+================================================================================
+[2026-03-16T18:13:33.728+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T18:13:33.778+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-16T18:13:45.951+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.00s           2026-03-16T18:13:16                      12
+================================================================================
+[2026-03-16T18:14:16.582+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.40s           2026-03-16T18:14:06                      12
+================================================================================
+[2026-03-16T18:14:47.070+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.09s           2026-03-16T18:14:37                      12
+================================================================================
+[2026-03-16T18:15:17.416+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.09s           2026-03-16T18:15:09                      12
+================================================================================
+[2026-03-16T18:15:47.825+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.01s           2026-03-16T18:15:40                      12
+================================================================================
+[2026-03-16T18:16:18.226+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.28s           2026-03-16T18:16:12                      12
+================================================================================
+[2026-03-16T18:16:48.900+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.51s           2026-03-16T18:16:44                      12
+================================================================================
+[2026-03-16T18:17:19.273+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.14s           2026-03-16T18:17:15                      12
+================================================================================
+[2026-03-16T18:17:49.871+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.23s           2026-03-16T18:17:46                      12
+================================================================================
+[2026-03-16T18:18:20.322+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.26s           2026-03-16T18:18:18                      12
+================================================================================
+[2026-03-16T18:18:34.469+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T18:18:34.507+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-16T18:18:51.020+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.03s           2026-03-16T18:18:46                      12
+================================================================================
+[2026-03-16T18:19:21.232+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.82s           2026-03-16T18:19:18                      12
+================================================================================
+[2026-03-16T18:19:51.529+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  0.86s           2026-03-16T18:19:49                      12
+================================================================================
+[2026-03-16T18:20:21.910+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.12s           2026-03-16T18:20:20                      12
+================================================================================
+[2026-03-16T18:20:52.401+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py    738  1.02s             1           0  1.12s           2026-03-16T18:20:20                      12
+================================================================================
+[2026-03-16T18:21:22.788+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py    753  0.02s             1           0  1.22s           2026-03-16T18:20:52                      12
+================================================================================
+[2026-03-16T18:21:52.900+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py                           1           0  1.75s           2026-03-16T18:21:24                      12
+================================================================================
+[2026-03-16T18:22:07.088+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2026-03-16T18:24:20.135+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2026-03-16T18:24:20.138+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2026-03-16T18:24:20.140+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-03-16T18:24:20.142+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-03-16T18:24:20.176+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-03-16T18:24:20.342+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/retail_sales_etl_dag.py     62  0.05s             0           0                                                   0
+================================================================================

@@ -1,0 +1,22 @@
+[2026-03-16T18:25:23.907+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-03-16T18:25:23.952+0000] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: retail_sales_etl.load_facts manual__2026-03-16T18:25:15.410514+00:00 [queued]>
+[2026-03-16T18:25:23.969+0000] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: retail_sales_etl.load_facts manual__2026-03-16T18:25:15.410514+00:00 [queued]>
+[2026-03-16T18:25:23.971+0000] {taskinstance.py:2884} INFO - Starting attempt 1 of 3
+[2026-03-16T18:25:23.995+0000] {taskinstance.py:2907} INFO - Executing <Task(PythonOperator): load_facts> on 2026-03-16 18:25:15.410514+00:00
+[2026-03-16T18:25:24.007+0000] {standard_task_runner.py:72} INFO - Started process 97 to run task
+[2026-03-16T18:25:24.014+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'retail_sales_etl', 'load_facts', 'manual__2026-03-16T18:25:15.410514+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/retail_sales_etl_dag.py', '--cfg-path', '/tmp/tmp6u09dxzm']
+[2026-03-16T18:25:24.022+0000] {standard_task_runner.py:105} INFO - Job 30: Subtask load_facts
+[2026-03-16T18:25:24.109+0000] {task_command.py:467} INFO - Running <TaskInstance: retail_sales_etl.load_facts manual__2026-03-16T18:25:15.410514+00:00 [running]> on host 9580b527c233
+[2026-03-16T18:25:24.271+0000] {taskinstance.py:3157} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineering' AIRFLOW_CTX_DAG_ID='retail_sales_etl' AIRFLOW_CTX_TASK_ID='load_facts' AIRFLOW_CTX_EXECUTION_DATE='2026-03-16T18:25:15.410514+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-16T18:25:15.410514+00:00'
+[2026-03-16T18:25:24.275+0000] {taskinstance.py:740} INFO - ::endgroup::
+[2026-03-16T18:25:24.311+0000] {warnings.py:109} WARNING - /opt/***/dags/retail_sales_etl_dag.py:111: FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  fact_sales = pd.read_json(ti.xcom_pull(key="fact_sales", task_ids="transform"))
+
+[2026-03-16T18:25:24.408+0000] {etl_load.py:65} INFO - [fact_sales] Upserted 50 rows.
+[2026-03-16T18:25:24.409+0000] {retail_sales_etl_dag.py:116} INFO - Fact table loaded.
+[2026-03-16T18:25:24.410+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-03-16T18:25:24.425+0000] {taskinstance.py:349} INFO - ::group::Post task execution logs
+[2026-03-16T18:25:24.427+0000] {taskinstance.py:361} INFO - Marking task as SUCCESS. dag_id=retail_sales_etl, task_id=load_facts, run_id=manual__2026-03-16T18:25:15.410514+00:00, execution_date=20260316T182515, start_date=20260316T182523, end_date=20260316T182524
+[2026-03-16T18:25:24.474+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-03-16T18:25:24.505+0000] {taskinstance.py:3924} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-03-16T18:25:24.509+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

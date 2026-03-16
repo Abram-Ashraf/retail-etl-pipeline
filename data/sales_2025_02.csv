@@ -1,0 +1,21 @@
+order_id,order_date,customer_id,customer_name,city,country,product_id,product_name,category,quantity,unit_price,unit_cost
+1021,2025-02-01,C016,Laila Sherif,Giza,Egypt,P100,Laptop,Electronics,1,1180,900
+1022,2025-02-01,C017,Amr Hany,Alexandria,Egypt,P101,Mouse,Accessories,3,25,10
+1023,2025-02-02,C018,Nada Khalil,Cairo,Egypt,P103,Monitor,Electronics,2,300,220
+1024,2025-02-02,C019,Tamer Naguib,Port Said,Egypt,P104,Printer,Office,1,185,140
+1025,2025-02-03,C020,Farah Adel,Mansoura,Egypt,P106,USB Cable,Accessories,5,8,3
+1026,2025-02-03,C001,Ahmed Hassan,Cairo,Egypt,P107,External HDD,Electronics,1,115,85
+1027,2025-02-04,C021,Hany Reda,Giza,Egypt,P108,Webcam,Electronics,2,65,40
+1028,2025-02-04,C022,Mayada Mostafa,Tanta,Egypt,P109,Office Desk,Furniture,1,255,180
+1029,2025-02-05,C023,Basel Anwar,Cairo,Egypt,P110,Notebook,Office,10,6,2
+1030,2025-02-05,C024,Hagar Emad,Zagazig,Egypt,P111,Router,Electronics,1,78,50
+1031,2025-02-06,C025,Mahmoud Ashraf,Alexandria,Egypt,P112,Headset,Accessories,1,35,18
+1032,2025-02-06,C003,Omar Khaled,Alexandria,Egypt,P113,Tablet,Electronics,1,425,330
+1033,2025-02-07,C026,Noha Sameh,Cairo,Egypt,P114,Phone Stand,Accessories,6,12,5
+1034,2025-02-07,C027,Ramy Fares,Ismailia,Egypt,P115,Filing Cabinet,Office,1,215,160
+1035,2025-02-08,C028,Sandy Nabil,Sohag,Egypt,P116,Projector,Electronics,1,560,430
+1036,2025-02-08,C029,Khaled Saber,Aswan,Egypt,P117,Lamp,Furniture,3,28,14
+1037,2025-02-09,C030,Passant Adel,Cairo,Egypt,P118,Scanner,Office,1,165,120
+1038,2025-02-09,C006,Yara Adel,Cairo,Egypt,P119,Power Bank,Electronics,3,30,18
+1039,2025-02-10,C031,Islam Tarek,Giza,Egypt,P105,Desk Chair,Furniture,1,95,70
+1040,2025-02-10,C032,Mariam Fathy,Alexandria,Egypt,P102,Keyboard,Accessories,2,45,20

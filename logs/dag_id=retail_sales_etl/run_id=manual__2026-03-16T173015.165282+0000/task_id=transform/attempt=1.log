@@ -1,0 +1,23 @@
+[2026-03-16T17:40:10.583+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-03-16T17:40:10.632+0000] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: retail_sales_etl.transform manual__2026-03-16T17:30:15.165282+00:00 [queued]>
+[2026-03-16T17:40:10.649+0000] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: retail_sales_etl.transform manual__2026-03-16T17:30:15.165282+00:00 [queued]>
+[2026-03-16T17:40:10.651+0000] {taskinstance.py:2884} INFO - Starting attempt 1 of 3
+[2026-03-16T17:40:10.675+0000] {taskinstance.py:2907} INFO - Executing <Task(PythonOperator): transform> on 2026-03-16 17:30:15.165282+00:00
+[2026-03-16T17:40:10.685+0000] {standard_task_runner.py:72} INFO - Started process 331 to run task
+[2026-03-16T17:40:10.694+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'retail_sales_etl', 'transform', 'manual__2026-03-16T17:30:15.165282+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/retail_sales_etl_dag.py', '--cfg-path', '/tmp/tmpg37lj1cy']
+[2026-03-16T17:40:10.701+0000] {standard_task_runner.py:105} INFO - Job 9: Subtask transform
+[2026-03-16T17:40:10.800+0000] {task_command.py:467} INFO - Running <TaskInstance: retail_sales_etl.transform manual__2026-03-16T17:30:15.165282+00:00 [running]> on host c76be04dcae8
+[2026-03-16T17:40:10.916+0000] {taskinstance.py:3157} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineering' AIRFLOW_CTX_DAG_ID='retail_sales_etl' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2026-03-16T17:30:15.165282+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-16T17:30:15.165282+00:00'
+[2026-03-16T17:40:10.919+0000] {taskinstance.py:740} INFO - ::endgroup::
+[2026-03-16T17:40:10.956+0000] {warnings.py:109} WARNING - /opt/***/dags/retail_sales_etl_dag.py:71: FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  raw_df = pd.read_json(raw_json, orient="records")
+
+[2026-03-16T17:40:10.990+0000] {etl_transform.py:87} INFO - Dropped 0 duplicate rows.
+[2026-03-16T17:40:11.000+0000] {etl_transform.py:113} INFO - 50 rows remain after cleaning.
+[2026-03-16T17:40:11.010+0000] {etl_transform.py:156} INFO - Transformation complete | customers=36 | products=24 | dates=25 | facts=50
+[2026-03-16T17:40:11.082+0000] {retail_sales_etl_dag.py:81} INFO - Transform done | customers=36 | products=24 | dates=25 | facts=50
+[2026-03-16T17:40:11.084+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-03-16T17:40:11.100+0000] {taskinstance.py:349} INFO - ::group::Post task execution logs
+[2026-03-16T17:40:11.102+0000] {taskinstance.py:361} INFO - Marking task as SUCCESS. dag_id=retail_sales_etl, task_id=transform, run_id=manual__2026-03-16T17:30:15.165282+00:00, execution_date=20260316T173015, start_date=20260316T174010, end_date=20260316T174011
+[2026-03-16T17:40:11.156+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-03-16T17:40:11.174+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

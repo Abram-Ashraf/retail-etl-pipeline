@@ -1,0 +1,22 @@
+[2026-03-16T18:14:30.892+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-03-16T18:14:30.984+0000] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: retail_sales_etl.extract manual__2026-03-16T18:14:28.675212+00:00 [queued]>
+[2026-03-16T18:14:31.008+0000] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: retail_sales_etl.extract manual__2026-03-16T18:14:28.675212+00:00 [queued]>
+[2026-03-16T18:14:31.012+0000] {taskinstance.py:2884} INFO - Starting attempt 1 of 3
+[2026-03-16T18:14:31.052+0000] {taskinstance.py:2907} INFO - Executing <Task(PythonOperator): extract> on 2026-03-16 18:14:28.675212+00:00
+[2026-03-16T18:14:31.076+0000] {standard_task_runner.py:72} INFO - Started process 294 to run task
+[2026-03-16T18:14:31.091+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'retail_sales_etl', 'extract', 'manual__2026-03-16T18:14:28.675212+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/retail_sales_etl_dag.py', '--cfg-path', '/tmp/tmp9cgx6one']
+[2026-03-16T18:14:31.105+0000] {standard_task_runner.py:105} INFO - Job 20: Subtask extract
+[2026-03-16T18:14:31.301+0000] {task_command.py:467} INFO - Running <TaskInstance: retail_sales_etl.extract manual__2026-03-16T18:14:28.675212+00:00 [running]> on host 8944583ada27
+[2026-03-16T18:14:31.599+0000] {taskinstance.py:3157} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineering' AIRFLOW_CTX_DAG_ID='retail_sales_etl' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2026-03-16T18:14:28.675212+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-16T18:14:28.675212+00:00'
+[2026-03-16T18:14:31.605+0000] {taskinstance.py:740} INFO - ::endgroup::
+[2026-03-16T18:14:31.650+0000] {etl_transform.py:45} INFO - Reading file: sales_2025_01.csv
+[2026-03-16T18:14:31.685+0000] {etl_transform.py:45} INFO - Reading file: sales_2025_02.csv
+[2026-03-16T18:14:31.701+0000] {etl_transform.py:45} INFO - Reading file: sales_2025_03.csv
+[2026-03-16T18:14:31.719+0000] {etl_transform.py:51} INFO - Extracted 50 rows from 3 file(s).
+[2026-03-16T18:14:31.760+0000] {retail_sales_etl_dag.py:62} INFO - Extracted 50 raw rows.
+[2026-03-16T18:14:31.762+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-03-16T18:14:31.785+0000] {taskinstance.py:349} INFO - ::group::Post task execution logs
+[2026-03-16T18:14:31.788+0000] {taskinstance.py:361} INFO - Marking task as SUCCESS. dag_id=retail_sales_etl, task_id=extract, run_id=manual__2026-03-16T18:14:28.675212+00:00, execution_date=20260316T181428, start_date=20260316T181430, end_date=20260316T181431
+[2026-03-16T18:14:31.853+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-03-16T18:14:31.896+0000] {taskinstance.py:3924} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-03-16T18:14:31.900+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

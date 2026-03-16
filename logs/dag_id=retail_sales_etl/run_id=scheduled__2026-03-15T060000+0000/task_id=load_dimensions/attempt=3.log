@@ -1,0 +1,129 @@
+[2026-03-16T17:40:04.450+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-03-16T17:40:04.496+0000] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: retail_sales_etl.load_dimensions scheduled__2026-03-15T06:00:00+00:00 [queued]>
+[2026-03-16T17:40:04.516+0000] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: retail_sales_etl.load_dimensions scheduled__2026-03-15T06:00:00+00:00 [queued]>
+[2026-03-16T17:40:04.517+0000] {taskinstance.py:2884} INFO - Starting attempt 3 of 3
+[2026-03-16T17:40:04.541+0000] {taskinstance.py:2907} INFO - Executing <Task(PythonOperator): load_dimensions> on 2026-03-15 06:00:00+00:00
+[2026-03-16T17:40:04.553+0000] {standard_task_runner.py:72} INFO - Started process 323 to run task
+[2026-03-16T17:40:04.562+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'retail_sales_etl', 'load_dimensions', 'scheduled__2026-03-15T06:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/retail_sales_etl_dag.py', '--cfg-path', '/tmp/tmpa89056ku']
+[2026-03-16T17:40:04.571+0000] {standard_task_runner.py:105} INFO - Job 7: Subtask load_dimensions
+[2026-03-16T17:40:04.673+0000] {task_command.py:467} INFO - Running <TaskInstance: retail_sales_etl.load_dimensions scheduled__2026-03-15T06:00:00+00:00 [running]> on host c76be04dcae8
+[2026-03-16T17:40:04.810+0000] {taskinstance.py:3157} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineering' AIRFLOW_CTX_DAG_ID='retail_sales_etl' AIRFLOW_CTX_TASK_ID='load_dimensions' AIRFLOW_CTX_EXECUTION_DATE='2026-03-15T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-03-15T06:00:00+00:00'
+[2026-03-16T17:40:04.814+0000] {taskinstance.py:740} INFO - ::endgroup::
+[2026-03-16T17:40:04.857+0000] {warnings.py:109} WARNING - /opt/***/dags/retail_sales_etl_dag.py:93: FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  dim_customer = pd.read_json(ti.xcom_pull(key="dim_customer", task_ids="transform"))
+
+[2026-03-16T17:40:04.886+0000] {warnings.py:109} WARNING - /opt/***/dags/retail_sales_etl_dag.py:94: FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  dim_product  = pd.read_json(ti.xcom_pull(key="dim_product",  task_ids="transform"))
+
+[2026-03-16T17:40:04.904+0000] {warnings.py:109} WARNING - /opt/***/dags/retail_sales_etl_dag.py:95: FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  dim_date     = pd.read_json(ti.xcom_pull(key="dim_date",     task_ids="transform"))
+
+[2026-03-16T17:40:04.924+0000] {taskinstance.py:3336} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 776, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 742, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 425, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/opt/airflow/dags/retail_sales_etl_dag.py", line 99, in task_load_dimensions
+    load_dim_customer(dim_customer, engine)
+  File "/opt/airflow/include/etl_load.py", line 68, in load_dim_customer
+    upsert_dataframe(
+  File "/opt/airflow/include/etl_load.py", line 47, in upsert_dataframe
+    stmt = pg_insert(table).values(records)
+  File "<string>", line 2, in insert
+  File "<string>", line 2, in __init__
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/util/deprecations.py", line 375, in warned
+    return fn(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/sql/dml.py", line 1029, in __init__
+    super(Insert, self).__init__(table, values, prefixes)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/sql/dml.py", line 615, in __init__
+    self.table = coercions.expect(
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/sql/coercions.py", line 193, in expect
+    resolved = impl._literal_coercion(
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/sql/coercions.py", line 378, in _literal_coercion
+    self._raise_for_expected(element, argname)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/sql/coercions.py", line 444, in _raise_for_expected
+    return super(_SelectIsNotFrom, self)._raise_for_expected(
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/sql/coercions.py", line 290, in _raise_for_expected
+    util.raise_(exc.ArgumentError(msg, code=code), replace_context=err)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+sqlalchemy.exc.ArgumentError: subject table for an INSERT, UPDATE or DELETE expected, got 'dim_customer'.
+[2026-03-16T17:40:04.949+0000] {taskinstance.py:1242} INFO - Marking task as FAILED. dag_id=retail_sales_etl, task_id=load_dimensions, run_id=scheduled__2026-03-15T06:00:00+00:00, execution_date=20260315T060000, start_date=20260316T174004, end_date=20260316T174004
+[2026-03-16T17:40:04.997+0000] {taskinstance.py:349} INFO - ::group::Post task execution logs
+[2026-03-16T17:40:04.999+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 7 for task load_dimensions (subject table for an INSERT, UPDATE or DELETE expected, got 'dim_customer'.; 323)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3029, in _run_raw_task
+    return _run_raw_task(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 282, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3184, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3208, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 776, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 742, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 425, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/opt/airflow/dags/retail_sales_etl_dag.py", line 99, in task_load_dimensions
+    load_dim_customer(dim_customer, engine)
+  File "/opt/airflow/include/etl_load.py", line 68, in load_dim_customer
+    upsert_dataframe(
+  File "/opt/airflow/include/etl_load.py", line 47, in upsert_dataframe
+    stmt = pg_insert(table).values(records)
+  File "<string>", line 2, in insert
+  File "<string>", line 2, in __init__
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/util/deprecations.py", line 375, in warned
+    return fn(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/sql/dml.py", line 1029, in __init__
+    super(Insert, self).__init__(table, values, prefixes)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/sql/dml.py", line 615, in __init__
+    self.table = coercions.expect(
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/sql/coercions.py", line 193, in expect
+    resolved = impl._literal_coercion(
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/sql/coercions.py", line 378, in _literal_coercion
+    self._raise_for_expected(element, argname)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/sql/coercions.py", line 444, in _raise_for_expected
+    return super(_SelectIsNotFrom, self)._raise_for_expected(
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/sql/coercions.py", line 290, in _raise_for_expected
+    util.raise_(exc.ArgumentError(msg, code=code), replace_context=err)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+sqlalchemy.exc.ArgumentError: subject table for an INSERT, UPDATE or DELETE expected, got 'dim_customer'.
+[2026-03-16T17:40:05.022+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2026-03-16T17:40:05.066+0000] {taskinstance.py:3924} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-16T17:40:05.077+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

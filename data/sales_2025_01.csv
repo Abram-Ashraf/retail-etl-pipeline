@@ -1,0 +1,21 @@
+order_id,order_date,customer_id,customer_name,city,country,product_id,product_name,category,quantity,unit_price,unit_cost
+1001,2025-01-02,C001,Ahmed Hassan,Cairo,Egypt,P100,Laptop,Electronics,1,1200,900
+1002,2025-01-02,C002,Sara Ali,Giza,Egypt,P101,Mouse,Accessories,2,25,10
+1003,2025-01-03,C003,Omar Khaled,Alexandria,Egypt,P102,Keyboard,Accessories,1,45,20
+1004,2025-01-03,C004,Mona Youssef,Mansoura,Egypt,P103,Monitor,Electronics,1,300,220
+1005,2025-01-04,C005,Nour Ibrahim,Tanta,Egypt,P104,Printer,Office,1,180,140
+1006,2025-01-04,C001,Ahmed Hassan,Cairo,Egypt,P105,Desk Chair,Furniture,2,95,70
+1007,2025-01-05,C006,Yara Adel,Cairo,Egypt,P106,USB Cable,Accessories,3,8,3
+1008,2025-01-05,C007,Mostafa Samir,Giza,Egypt,P107,External HDD,Electronics,1,110,85
+1009,2025-01-06,C008,Huda Nabil,Alexandria,Egypt,P108,Webcam,Electronics,1,65,40
+1010,2025-01-06,C009,Karim Fathy,Zagazig,Egypt,P109,Office Desk,Furniture,1,250,180
+1011,2025-01-07,C010,Salma Essam,Cairo,Egypt,P110,Notebook,Office,5,6,2
+1012,2025-01-07,C002,Sara Ali,Giza,Egypt,P111,Router,Electronics,1,75,50
+1013,2025-01-08,C003,Omar Khaled,Alexandria,Egypt,P112,Headset,Accessories,2,35,18
+1014,2025-01-08,C011,Ali Mahmoud,Ismailia,Egypt,P113,Tablet,Electronics,1,420,330
+1015,2025-01-09,C012,Dina Ashraf,Cairo,Egypt,P114,Phone Stand,Accessories,4,12,5
+1016,2025-01-09,C004,Mona Youssef,Mansoura,Egypt,P115,Filing Cabinet,Office,1,210,160
+1017,2025-01-10,C013,Wael Tarek,Sohag,Egypt,P116,Projector,Electronics,1,550,430
+1018,2025-01-10,C014,Reem Hamdy,Aswan,Egypt,P117,Lamp,Furniture,2,28,14
+1019,2025-01-11,C015,Hesham Adel,Cairo,Egypt,P118,Scanner,Office,1,160,120
+1020,2025-01-11,C006,Yara Adel,Cairo,Egypt,P119,Power Bank,Electronics,2,30,18
