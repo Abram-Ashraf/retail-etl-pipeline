@@ -201,6 +201,21 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# Airflow logs
+logs/
+
+# Postgres data volume
+postgres/data/
+
+# Environment variables (credentials)
+.env
+
+# Airflow config overrides
+config/
+
+# Node (used for docs generation only)
+node_modules/
+make_docs.js
 # Marimo
 marimo/_static/
 marimo/_lsp/
