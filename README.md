@@ -313,3 +313,5 @@ ORDER BY d.year, d.month;
 ### Upsert strategy (`etl_load.py`)
 
 All loads use PostgreSQL `ON CONFLICT DO UPDATE`, making every pipeline run fully idempotent. Re-running the DAG updates existing records rather than duplicating them.
+=======
+# retail-etl-pipeline
